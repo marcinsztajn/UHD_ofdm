@@ -1,0 +1,76 @@
+1. A colleague of yours would like to build a home network laboratory to improve his networking skills and his understanding of SDN. He asks you for advice. You are most likely to recommend that he uses one (or combination) of the following: 
+Bare-metal hypervisor, such as ESXI, OS-based hypervisor, such as Virtual Box, or containers platform, such as Docker
+2. One of the specific networking challenges present in data centers, which can be addressed by SDN, is related to:
+Reconfiguring network in response to starting, stopping and migrating virtual machines or containers
+3. You are wore hired by a high-tech company working on advanced graphen battery technology. For the new project it was dedicated to use a public cloud service for performing some of the scientific computations. What kind of cloud service would you recommend to your company to use in order to ensure the best protection of the intellectual property?
+Infrastructure as a services, because it enables user to have a full control over VMs operating in the network, enabling obfuscation of the executed code and use of custom secure computation approaches
+4. Hardware requirements on SDN components differ when compared to traditional networks, because:
+due to separation of forwarding and control, there are reduced requirements on routing intelligence of switching equipment, and reduced requirements of traffic forwarding capability of a controller
+5. Some of applications of the OpenFlow group tables include
+Cloning of packets (e.g. for multicast) random selection of links (e.g. for load balancing), and selection of first-live link (for rapid failover)
+6. Your boss has asked you to recommend if your company should use ONOS clusters and the ODL shards in the planned enterprise SDN. His main concern is business continuity if possible he would like to maintain also high performance of the network:
+You recommend the ONOS clusters, since they enable faster failover in case of controller’s mailfunction whereas ODL shards enables better performance optimization of controllers during the normal operations
+7. Advantages of blacklisting in SDN are that:
+Packet destined to IP address or hostnames which are designated as malicious or forbidden can be dropped
+8. OpenFlow switch can:
+Inspect information related to ports used MAC layer, VLANs, IP layer and TCP/UDP
+9. The most important security dimensions in respect to SDN southbound communications are:
+Confidentiality, integrity and availability, as well as accountability and authentication 
+10. Attribute-based Access Control policy can be used to express:
+Any RBAC or Bell-LaPadula policy
+11. Security model characterized by no read up rule is called: Bell-LaPadula
+12. You are working in a bank, with relatively static structure, well defense job responsibilities and assets. Which access control model is most suitable for use in security policies used by the IT system?
+Role-based access control
+13. Data-centric security offers a better granularity of data protection than network-centric security
+14. Formal methods can be used in context of DCS to support accurate expression, validation and analysis of security policies
+15. The three basic ways of binding metadata with information are encapsulating, embedded and detached
+16. Containarization can be used in ad DCS SDN testbed to provide a lightweight implementation of relevant application-layer functionality and application-layer traffic
+17. The components of SDN relevant to choice of DCS compliant path include communication links, switches and any other network elements involved in mediation of traffic an potentially having influence on its security and dependability
+18. When DCS is implemented at in the SDN Policy Decision is implemented at a controller or application layer, whereas Policy Enforcement Point is implemented at a switch
+19. In DCS labelling of information is used in order to attach attributes of information to information objects
+20. SDN controller can be characterized as a network device providing configuration information and forwarding rules to the switches
+21. In respect to routing, SDN  enables better optimization of network paths, thus reducing network overhead and delays, as well as improving load balancing
+22. Cryptographic access control uses encryption in order to enforce an access control policy
+23. You are hired by a small company that considers use of Google drive to securely backup data and enable secure sharing of information with the customers. When asked about your opinion about this idea, which statement you would support: 
+Google cloud would provide a good addition to storing backup only locally in your company, as well as facilitate information sharing with customer. However, encryption is required to protect confidentiality and integrity of data
+24. The best way to ensure accurate and ubiquitous labelling of data is make labelling benefits understable to users and easy to perform, and provide appropriate tools for labelling of automatically generated data
+25. The role of e-node in PCN is to support enforcement of policies, management of network and handling of traffic
+26. In case of changing information sharing requirements if context-based protection and release approach is used only policy needs to change but metadata attached to information can stay the same. If Bell-LaPadula policy is used the metadata needs to change as well.
+27. The possible testbed platforms, which can be used to validation of DCS SDN implementation are emulators (e.g. mininet), simulators (e.g. ns-3) and physical testbeds
+28. Data-sentric security facilitates defence-in-depth, information sharing, use of cloud services and outsourcing
+29. For your student project, which you need to finish while skiing in Austria, you have decided to process your experimental data using “MATLAB online”, which is accessible through a Web browser (it is easier to ski with iPad than with MacBook Pro). By doing this you make a practical use of a SaaS cloud solution
+30. Mapping of rich metadata to sensitivity markings is required in order to ensure compatibility with legacy systems and facilitate handling of printed documents
+31. Attribute-based encryption is a type of public key encryption
+32. Malicious reconnaissance can be best described as an initial stage of a cyber attack, during which an attacker uses scanning techniques to discover vulnerable targets in the network
+33. An SDN can support an effective deployment of network security appliances/middleboxes by implementing better load balancing for security middleboxes, supporting more flexibility regarding their physical location, and supporting dynamic re-routing in the case of an appliance failure
+34. OpenFlow 1.5.1 specification recommends use of secure version of TLS and mutual authentication between controller and switch-alternative security measure might be used if communication between switch and controller takes place over TCP
+35. The difference between proactive and reactive SDN applications is that proactive applications can re-program network routes in advance, e.g. based on external events, whereas reactive application act only on packets forwarded by switch to controller
+36. Location of controller is important, because remote controller can introduce substantial delay, influencing ability of system to meet availability requirements
+37. Network Function Virtualization enables virtualization of network elements, such as firewalls or IDS, and implementation of their logic over shared hardware platform
+38. The attack surface of SDN includes management connections, SDN control protocol, data plane physical/logical connections, as well as SDN switches, controllers, and administration stations
+39. Different types of clouds include private, public, hybrid and community clouds
+40. Moving target defence measures at the network layer include changing the network topology (e.g. IP-hopping), generating random port numbers, extra open or closed ports, fake listening hosts, as well as fake information about the host and OS type and version
+41. One of common classification of virtualization approaches includes hypervisor running over bare-metal hardware; hypervisor running over an operating system; and containers sharing the host OS-kernel
+42. The main functional points of ABAC implementation in an enterprise system are Policy Enforcement Point, Policy Decision Point, Policy Information Point, and Policy Administration Point
+43. Data-centric security at the SDN layer means that network path used for data in-transit is optimized in respect to protection requirements specific to transported data 
+44. Traffic flow confidentiality can be best described as traffic shaping and packet re-writing/buffering/insertion performed in order to provide countermeasures against traffic analysis by attackers
+45. The three dimensions of security most relevant to data protection are integrity, confidentiality, availability
+46. Security model characterized by no write up rule is called Biba
+47. Data-centric security facilitates defence-in-depth, information sharing, use of cloud services and outsourcing
+48. Southbound interface is a two-way communication interface between a switch and a controller
+49. The containers are more lightweight than virtual machines because each container shares the host OS kernel and, usually, the binaries and libraries. This makes containers lightweight – containers are only megabytes in size and take just seconds to start, versus minutes for a VM
+50. An SDN environment can provide better support to cyber defence by enabling an improved security monitoring, traffic analysis and anomaly-detection based on analysis and correlation of the data from the complete network, as well as more effective propagation of updated security policies across the network in the form of flow rules
+51. The advantages of SDN over classical networking environment include ability to perform routing based on global network view and centralized configuration of network policies
+52. Attribute-based Access Control policy can be used to express any RBAC or Bell-LaPadula policies
+53. Use of data centric security at the SDN layers results in increased security of data in-transit but introduces some additional cost of transmission 
+54. The decision about choice of and SDN path is based on EAI and link properties
+55. Cloud technology introduces specific requirements in respect to security mechanisms, because in public cloud the information is stored and processed outside of physical control by the information owner
+56. Data-centric security policies can be enforced on different layers of an ICT system
+57. In the case of changing information sharing requirements if context-based protection and release approach is used only policy needs to change but metadata attached to information can stay the same. If Bell-LaPadula policy is used the metadata needs to change as well.
+58. The main differences between the Protected Core Networking (PCN) and the Federated Mission Networking (FMN) are the PCN is a an approach to implementing a Protected Core, which is a secure network layer used in the military system. The FMN is a concept providing a horizontal and vertical interoperability for federated military operations – as one of the elements it includes PCN.
+----------------------------------------------------------------------------------------------------------------------------
+59. Data-centric security policy can be used to describe who can read, write and use information
+60. The link properties relevant to enforcement of DCS policies include reliability, type of physical medium used, as well as type of encryption and authentication headers in IP and MAC layer.
+61. EAI can be embedded in the packets mediated by the SDN network using 
+62. SDN switch can be characterized as a network device primarily concerned with forwarding the network traffic between different ports according to pre-defined rules
+63. Read access control policy can be used to ensure confidentiality 
