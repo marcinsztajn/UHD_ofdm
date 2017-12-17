@@ -1,0 +1,6 @@
+Otwrte lab 2:
+1. To beetwen switches
+2. S1  s3
+3. Diakira czy cos 
+Why before the connection is established the PACKET_IN message is sent?
+Switch is asking controller what to do with packet.
